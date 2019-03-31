@@ -70,3 +70,24 @@ print_r($person);
 foreach ($person as $key => $value) {
     echo "$key = $value" . PHP_EOL;
 }
+
+// MODIFY ARRAY
+
+$person = ["Eko", "Kurniawna", "Khannedy"];
+foreach ($person as &$value) {
+    $value = strtoupper($value);
+}
+
+print_r($person);
+
+$names = ["Eko", "Joko", "Budi"];
+sort($names);
+print_r($names);
+
+$names1 = &$names;
+$names2 = &$names;
+
+$names1[0] = "Hahaha";
+
+print_r($names1);
+print_r($names2);
