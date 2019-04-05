@@ -1,6 +1,7 @@
 {
   "require": {
     "monolog/monolog": "1.24.0",
-    "illuminate/hashing": "^5.8"
+    "illuminate/hashing": "^5.8",
+    "league/fractal": "^0.17.0"
   }
 }
