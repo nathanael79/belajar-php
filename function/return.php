@@ -28,3 +28,12 @@ function newPerson(string $name): Person
 
 $person = newPerson("Eko");
 var_dump($person);
+
+function tuple($first, $second)
+{
+    return array($first, $second);
+}
+
+list($first, $second) = tuple("EKo", "Kurniawan");
+var_dump($first);
+var_dump($second);
