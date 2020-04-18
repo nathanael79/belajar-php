@@ -1,6 +1,6 @@
 <?php
 
-$array1 = array(
+//$array1 = array(
     "first_name" => "Eko Kurniawan"
 );
 
